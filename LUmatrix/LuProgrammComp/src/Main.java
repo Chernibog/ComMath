@@ -26,7 +26,7 @@ public class Main {
             }
         }
 
-        // === Инициализация L и U под Crout-разложение ===
+        // === Инициализация L и U  ===
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 matrix_l[i][j] = 0.0;
